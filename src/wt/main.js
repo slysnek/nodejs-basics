@@ -1,6 +1,5 @@
 import { cpus } from "node:os";
-import { resolve } from "node:path";
-import { Worker, isMainThread, parentPort, workerData } from "node:worker_threads"
+import { Worker } from "node:worker_threads"
 import path from 'path';
 import { fileURLToPath } from 'url';
 
