@@ -4,7 +4,7 @@ import { createServer as createServerHttp } from 'http';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-import './files/c.js';
+import './files/c.cjs';
 import a from './files/a.json' assert { type: "json" };
 import b from './files/b.json' assert { type: "json" };
 
